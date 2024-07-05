@@ -29,13 +29,17 @@ This project allows users to upload PDF files and interact with their content us
    git clone https://github.com/Nikk1412/Chat-with-PDF.git
    cd Chat-with-PDF
 2. Create a virtual environment and activate it:
+   ```bash
     python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate
+    # On Windows, use `venv\Scripts\activate`
    
 3. Install the required packages:
+   ```bash
     pip install -r requirements.txt
 
-4. Set up your Google API Key:
+5. Set up your Google API Key:
+   ```bash
      -Create a .env file in the root directory.
      -Add your Google API key to the .env file:
      GOOGLE_API_KEY=your_google_api_key
