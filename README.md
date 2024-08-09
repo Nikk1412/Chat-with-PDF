@@ -49,6 +49,8 @@ This project allows users to upload PDF files and interact with their content us
 streamlit run app.py
 Open your web browser and go to http://localhost:8501 to use the application
 
+
+
 ### Usage
 - Upload PDF Files: Use the sidebar to upload one or more PDF files.
 - Process PDFs: Click on the "Submit & Process" button to extract and process the text from the uploaded PDFs.
@@ -61,7 +63,8 @@ Open your web browser and go to http://localhost:8501 to use the application
 4. Vector Storage: The embeddings are stored locally using FAISS for efficient similarity search.
 5. Conversational Query: When a user asks a question, the application retrieves the most relevant text chunks and generates a detailed response using the pre-defined prompt template and Google Generative AI.
 
-
+### Check the app here
+https://chat-pdf-geminipro.streamlit.app/
 
 
 
