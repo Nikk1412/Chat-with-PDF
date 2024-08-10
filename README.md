@@ -1,4 +1,4 @@
-# Chat with PDF 💁🔍📚
+# PDF GENIE 🧞
 
 This project allows users to upload PDF files and interact with their content using natural language questions. By leveraging LangChain and Google Generative AI, this application processes the PDFs, creates embeddings, and performs conversational queries to provide accurate responses from the PDF content.
 
@@ -64,7 +64,7 @@ Open your web browser and go to http://localhost:8501 to use the application
 5. Conversational Query: When a user asks a question, the application retrieves the most relevant text chunks and generates a detailed response using the pre-defined prompt template and Google Generative AI.
 
 ### Check the app here
-https://chat-pdf-geminipro.streamlit.app/
+https://pdf-genie.streamlit.app/
 
 
 
